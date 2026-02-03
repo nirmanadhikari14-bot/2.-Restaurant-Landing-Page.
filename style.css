@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #1f2933;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ================= HEADER ================= */
+.header {
+    background: #0f172a;
+    padding: 15px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.logo span {
+    color: #22c55e;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.nav-btn {
+    background: #22c55e;
+    padding: 8px 14px;
+    border-radius: 6px;
+    color: #0f172a;
+    font-weight: 600;
+}
+
+/* ================= HERO ================= */
+.hero {
+    background: #f8fafc;
+    padding: 80px 0;
+}
+
+.hero-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+    color: #475569;
+}
+
+.hero-points {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.hero-points li {
+    margin-bottom: 8px;
+}
+
+.hero-buttons a {
+    margin-right: 15px;
+}
+.hero-image{
+    height: 450px;
+    width: 350px;
+}
+
+/* ================= BUTTONS ================= */
+.btn-primary {
+    background: #22c55e;
+    color: #0f172a;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.btn-secondary {
+    border: 2px solid #22c55e;
+    color: #22c55e;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* ================= SECTIONS ================= */
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #64748b;
+}
+
+/* ================= SERVICES ================= */
+.services {
+    padding: 70px 0;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.service-card {
+    background: #f1f5f9;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* ================= WHY US ================= */
+.why-us {
+    background: #0f172a;
+    color: #ffffff;
+    padding: 70px 0;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.why-box {
+    background: #020617;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* ================= HOW IT WORKS ================= */
+.how-it-works {
+    padding: 70px 0;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.step span {
+    font-size: 28px;
+    font-weight: 700;
+    color: #22c55e;
+}
+
+/* ================= CTA ================= */
+.cta {
+    background: #22c55e;
+    color: #0f172a;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.cta small {
+    display: block;
+    margin-top: 10px;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    background: #020617;
+    color: #94a3b8;
+    padding: 20px 0;
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+/* ================= PAGE HERO ================= */
+.page-hero {
+    background: #f1f5f9;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.page-hero h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.page-hero p {
+    max-width: 700px;
+    margin: auto;
+    color: #475569;
+}
+
+/* ================= SERVICES PAGE ================= */
+.services-page {
+    padding: 70px 0;
+}
+
+.service-section {
+    margin-bottom: 60px;
+    padding: 30px;
+    background: #f8fafc;
+    border-radius: 10px;
+}
+
+.service-section h2 {
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.service-desc {
+    margin-bottom: 20px;
+    color: #475569;
+}
+
+.service-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.service-list li {
+    padding: 8px 0;
+    padding-left: 24px;
+    position: relative;
+}
+
+.service-list li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #22c55e;
+    font-weight: 600;
+}
+
+.service-note {
+    background: #e2e8f0;
+    padding: 15px;
+    border-left: 4px solid #22c55e;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* ================= ACTIVE NAV ================= */
+nav a.active {
+    color: #22c55e;
+    font-weight: 600;
+}

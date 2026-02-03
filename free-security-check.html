@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Security Check | TrustRaksha</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="free-security-check.css">
+    <link rel="stylesheet" href="style.css">
+    
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+    <div class="container nav">
+        <div class="logo">Trust<span>Raksha</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="free-security-check.html" class="active">Free Security Check</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- ================= PAGE HERO ================= -->
+<section class="page-hero">
+    <div class="container">
+        <h1>Request a Free Security Check</h1>
+        <p>
+            Tell us your concern. We’ll review it safely, legally, and ethically —
+            without asking for passwords or OTPs.
+        </p>
+    </div>
+</section>
+
+<!-- ================= FORM SECTION ================= -->
+<section class="security-form">
+    <div class="container">
+
+        <form id="securityCheckForm" class="form-box">
+
+            <h2>Security Check Request Form</h2>
+            <p class="form-note">
+                This is a demo-safe form. Please do not share passwords, OTPs,
+                or sensitive personal data.
+            </p>
+
+            <!-- Name -->
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <!-- Service Type -->
+            <div class="form-group">
+                <label for="service">Select Service Type</label>
+                <select id="service" required>
+                    <option value="">-- Choose a service --</option>
+                    <option>Social Media Security</option>
+                    <option>Banking & Financial Safety</option>
+                    <option>Vulnerability & Risk Assessment</option>
+                </select>
+            </div>
+
+            <!-- Problem Description -->
+            <div class="form-group">
+                <label for="problem">Describe Your Issue</label>
+                <textarea id="problem" rows="5"
+                    placeholder="Briefly describe your concern (no passwords or OTPs)"
+                    required></textarea>
+            </div>
+
+            <!-- Consent -->
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="consent" required>
+                <label for="consent">
+                    I confirm that I am requesting this security check voluntarily
+                    and I understand that TrustRaksha does not ask for passwords,
+                    OTPs, or bank access.
+                </label>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit" class="btn-primary full-btn">
+                Submit Request
+            </button>
+
+            <p class="form-footer">
+                🔐 No passwords • No OTPs • Consent-based service only
+            </p>
+
+        </form>
+
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <div class="container footer-content">
+        <p>© 2026 TrustRaksha. All Rights Reserved.</p>
+        <p>Ethical • Legal • Privacy-First Digital Security</p>
+    </div>
+</footer>
+
+<!-- ================= SIMPLE JS (DEMO) ================= -->
+<script>
+document.getElementById("securityCheckForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    alert(
+        "Thank you for contacting TrustRaksha.\n\n" +
+        "Your request has been received.\n" +
+        "Our team will contact you via email with next steps.\n\n" +
+        "No passwords or OTPs will ever be requested."
+    );
+
+    this.reset();
+});
+</script>
+
+</body>
+</html>

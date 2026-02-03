@@ -1,0 +1,44 @@
+/* ================= ABOUT PAGE ================= */
+.about-content {
+    padding: 70px 0;
+}
+
+.about-section {
+    margin-bottom: 45px;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about-section p {
+    color: #475569;
+    margin-bottom: 10px;
+}
+
+.highlight-box {
+    background: #f1f5f9;
+    padding: 30px;
+    border-left: 5px solid #22c55e;
+    border-radius: 8px;
+}
+
+.about-list {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.about-list li {
+    padding-left: 24px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.about-list li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #22c55e;
+    font-weight: 600;
+}
